@@ -1,0 +1,210 @@
+/* login, register form */
+
+Form {
+  border-radius: 2%;
+}
+
+/* Nav bar */
+.menuBar {
+  border-bottom-right-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
+  border: #efefef 2px solid;
+  border-top: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* border-radius: 10px; */
+}
+
+th {
+  font-weight: normal;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  width: 100%;
+}
+
+.menebox {
+  width: fit-content;
+}
+
+.tableBox {
+  height: 80%;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0%;
+}
+
+.table > tr {
+  margin: 10%;
+}
+
+.profileCard {
+  z-index: 1;
+  position: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.border-1 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.border-2 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+hr.zig,
+hr.zag {
+  border: none;
+  height: 30px;
+  margin: 0 50px;
+}
+
+hr.zig {
+  background: linear-gradient(-135deg, #fff 20px, rgba(0, 0, 0, 0) 0) 0 5px,
+    linear-gradient(135deg, #fff 20px, rgba(0, 0, 0, 0) 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 100;
+  position: relative;
+}
+
+hr.zag {
+  background: linear-gradient(-135deg, #333 20px, rgba(0, 0, 0, 0) 0) 0 5px,
+    linear-gradient(135deg, #333 20px, #fff 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 50;
+  margin-top: -8%;
+}
+
+.astrodivider {
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+
+.astrodividermask {
+  overflow: hidden;
+  height: 20px;
+}
+
+.astrodividermask:after {
+  content: "";
+  display: block;
+  margin: -25px auto 0;
+  width: 100%;
+  height: 25px;
+  border-radius: 125px / 12px;
+  box-shadow: 0 0 8px #f8b851;
+}
+.astrodivider span {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -25px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #f8b851;
+  background: #fff;
+}
+.astrodivider i {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 100%;
+  border: 1px dashed #f8b851;
+  text-align: center;
+  line-height: 40px;
+  font-style: normal;
+  color: #f8b851;
+}
+
+.menuButton {
+  padding: 0.5%;
+  margin: 0.5%;
+}
+
+.sameHeight {
+  height: 100%;
+  width: 100%;
+}
+.zoom {
+  transition: transform 0.2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(
+    1.05
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.Bag {
+  float: right;
+  font-size: xx-large;
+}
+
+/* Responsive*/
+@media only screen and (max-width: 992px) {
+  .mob-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .dextop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex !important;
+  }
+}
+
+.mobile-nav {
+  display: none;
+  padding: 1%;
+  border-bottom: 0.1px solid;
+}
+.offcanvas-start {
+  top: 0;
+  left: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  transform: translateX(-100%);
+  max-width: 70%;
+}
+
+.nav-icon {
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.divReverse {
+  flex-wrap: wrap-reverse !important;
+}
+
+@media screen and (max-width: 992px) {
+  .tabledisplay {
+    display: none;
+  }
+}
+
+.tableSelect {
+  background-image: unset;
+}
