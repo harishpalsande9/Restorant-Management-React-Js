@@ -1,3 +1,24 @@
+# Output
+
+![Screenshot 2022-06-25 210010](https://user-images.githubusercontent.com/88966974/178007065-3af60558-b6f3-46e3-bb14-5375e8323299.png)
+
+
+![Screenshot 2022-06-25 210101](https://user-images.githubusercontent.com/88966974/178006596-cc8dc328-59e9-483a-9453-5e0748a29a29.png)
+
+![Screenshot 2022-06-25 210118](https://user-images.githubusercontent.com/88966974/178006628-d196222b-a88e-4559-8814-d2509c5b50af.png)
+
+![Screenshot 2022-06-25 210136](https://user-images.githubusercontent.com/88966974/178006650-63c8ff45-c580-4e26-842c-eba41e81d8d2.png)
+
+![Screenshot 2022-06-25 210154](https://user-images.githubusercontent.com/88966974/178006741-6145fd1a-d9d9-4e87-9b50-804d7c9f73a7.png)
+
+![Screenshot 2022-06-25 210256](https://user-images.githubusercontent.com/88966974/178006755-f91f08ef-7ff6-47f2-af47-f2ae58c4ad14.png)
+
+![Screenshot 2022-06-25 210426](https://user-images.githubusercontent.com/88966974/178006776-7c19dbd3-07a0-45c7-834c-3c1c084482d7.png)
+
+![Screenshot 2022-06-25 210443](https://user-images.githubusercontent.com/88966974/178006795-458d3c7b-2eb7-482e-b486-327bfbc38e4f.png)
+
+![Screenshot 2022-06-25 210459](https://user-images.githubusercontent.com/88966974/178006821-1b6ebf37-1035-41df-b3f0-092831a16aab.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
